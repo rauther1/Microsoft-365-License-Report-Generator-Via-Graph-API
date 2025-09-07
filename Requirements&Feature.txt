@@ -1,0 +1,22 @@
+Requirements
+
+Python 3.9+
+
+msal
+
+requests
+
+An Azure AD App Registration with:
+
+API Permissions → User.Read.All, Directory.Read.All (Application type)
+
+
+Features
+It uses MSAL to authenticate and fetches license details for all users in Microsoft 365.
+Connects to Microsoft Graph API using MSAL (Microsoft Authentication Library)
+
+Fetches user list and their assigned licenses
+
+Exports to CSV for easy reporting
+
+Supports filtering (e.g., licensed vs. unlicensed users)
